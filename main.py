@@ -32,6 +32,7 @@ from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn
 import subprocess
 import shutil
 from typing import AsyncIterable
+from dotenv import load_dotenv  # Add this import
 
 # Configure logging
 logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')

@@ -8,3 +8,5 @@ prompt_toolkit
 pydub
 websockets
 SpeechRecognition
+aiohttp
+pyaudio
