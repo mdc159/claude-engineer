@@ -131,7 +131,22 @@ Once started, you can interact with Claude Engineer by typing your queries or co
 - "Explain the code in file.py and suggest improvements"
 - "Search for the latest best practices in React development"
 - "Help me debug this error: [paste your error message]"
-- "Analyze this image and describe its contents"
+- "async def chat_with_claude(user_input):
+    # ... other code ...
+    file_contents = {}
+    for file in files:
+        if isinstance(file, str):
+            try:
+                file = json.loads(file)
+            except json.JSONDecodeError as e:
+                print(f"Error decoding JSON: {e}")
+                continue
+
+        if isinstance(file, dict):
+            file_contents[file['path']] = file['content']
+        else:
+            print(f"Unexpected type for file: {type(file)}")
+    # ... other code ..."
 - "Execute this Python code and analyze the results"
 - "Read multiple files: file1.py, file2.py, file3.py"
 

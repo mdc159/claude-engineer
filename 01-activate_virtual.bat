@@ -1,2 +1,2 @@
 @echo off
-call mven\scripts\activate
+.mven\scripts\activate 
